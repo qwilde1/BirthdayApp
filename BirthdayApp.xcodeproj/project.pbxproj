@@ -13,10 +13,11 @@
 		81B8701224E372E300B87830 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B8701024E372E300B87830 /* Main.storyboard */; };
 		81B8701424E372E400B87830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B8701324E372E400B87830 /* Assets.xcassets */; };
 		81B8701724E372E400B87830 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B8701524E372E400B87830 /* LaunchScreen.storyboard */; };
+		81B8701F24E3767B00B87830 /* videos in Resources */ = {isa = PBXBuildFile; fileRef = 81B8701E24E3767B00B87830 /* videos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81B8700724E372E300B87830 /* BirthdayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B8700724E372E300B87830 /* LoveLove<3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoveLove<3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B8700A24E372E300B87830 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B8700C24E372E300B87830 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		81B8700E24E372E300B87830 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		81B8701324E372E400B87830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B8701624E372E400B87830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81B8701824E372E400B87830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B8701E24E3767B00B87830 /* videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = videos; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		81B8700824E372E300B87830 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81B8700724E372E300B87830 /* BirthdayApp.app */,
+				81B8700724E372E300B87830 /* LoveLove<3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +58,7 @@
 		81B8700924E372E300B87830 /* BirthdayApp */ = {
 			isa = PBXGroup;
 			children = (
+				81B8701E24E3767B00B87830 /* videos */,
 				81B8700A24E372E300B87830 /* AppDelegate.swift */,
 				81B8700C24E372E300B87830 /* SceneDelegate.swift */,
 				81B8700E24E372E300B87830 /* ViewController.swift */,
@@ -84,7 +87,7 @@
 			);
 			name = BirthdayApp;
 			productName = BirthdayApp;
-			productReference = 81B8700724E372E300B87830 /* BirthdayApp.app */;
+			productReference = 81B8700724E372E300B87830 /* LoveLove<3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B8701F24E3767B00B87830 /* videos in Resources */,
 				81B8701724E372E400B87830 /* LaunchScreen.storyboard in Resources */,
 				81B8701424E372E400B87830 /* Assets.xcassets in Resources */,
 				81B8701224E372E300B87830 /* Main.storyboard in Resources */,
@@ -287,12 +291,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKXXXMY2QS;
 				INFOPLIST_FILE = BirthdayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwilde.BirthdayApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LoveLove<3";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +310,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DKXXXMY2QS;
 				INFOPLIST_FILE = BirthdayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qwilde.BirthdayApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LoveLove<3";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
